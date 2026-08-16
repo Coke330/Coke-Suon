@@ -1,0 +1,11 @@
+B = int(input("How many tickets does Coke want to buy?"))
+T = int(input("How many tickets are there?"))
+P = int(input("How many tickets did other people buy?"))
+if(P>T):
+    print("Sorry,there are only" + str(T) + "tickets.Choose a number for P that is <= to" + str(T))
+    P = int(input("How many tickets did other people buy/n"))
+
+if(B > (T-P)):
+    print("No,there are only" + str(T-P-B) + "tickets")
+else:
+    print("Yes," + str(T-P-B) + "tickets left")

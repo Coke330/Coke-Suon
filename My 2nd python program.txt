@@ -1,0 +1,121 @@
+score = 0
+
+#Question 1
+
+print("What is the capital of China?")
+
+answer = input()
+
+if(answer == "Beijing"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:Beijing")
+
+#Question 2
+
+print("What is the capital of Canada?")
+
+answer = input()
+
+if(answer == "Ottawa"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:Ottawa")
+
+#Question 3
+
+print("Which Continent is Germany in?")
+
+answer = input()
+
+if(answer == "Europe"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:Europe")
+
+#Question 4
+
+print("Who is 董潇?")
+
+answer = input()
+
+if(answer == "goat"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:goat")
+
+#Question 5
+
+print("Which singer do u like best?")
+
+answer = input()
+
+if(answer == "JokerXue"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:JokerXue")
+
+#Question 6
+
+print("Which sport do u like best?")
+
+answer = input()
+
+if(answer == "basketball"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:basketball")
+
+#Question 7
+
+print("What else sport do u like?")
+
+answer = input()
+
+if(answer == "cycling"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:cycling")
+
+#Question 8
+
+print("Do u like play game fo peace?")
+
+answer = input()
+
+if(answer == "yes"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:yes")
+
+#Question 9
+
+print("What food do u like eating best?")
+
+answer = input()
+
+if(answer == "all"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:all")
+
+    #Question 10
+
+print("What is your weight?")
+
+answer = input()
+
+if(answer == "80kg"):
+    score = score + 1
+    print("Excellent!Your score is:" + str(score))
+else:
+    print("You're wrong!The answer is:80kg")

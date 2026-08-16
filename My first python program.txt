@@ -1,0 +1,24 @@
+print("My first python program")
+
+print("董潇董潇董潇董潇董潇董潇董潇董潇董潇董潇董潇")
+
+print("What is your name?")
+
+name = input()
+
+print("Hello " + name + "!!!")
+
+print("How old are you?")
+
+age = int(input())
+
+print("You are " + str(age) +" years old.")
+
+print("Do you like 董潇？")
+
+answer = input()
+
+if (answer == "Yes"):
+    print("You have an eye for it ," + name + "!")
+else:
+    print("What a pity !")
